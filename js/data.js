@@ -17,8 +17,8 @@ const catalogData = [
                 title: "Jaspion",
                 description: "Jaspion é um órfão criado no universo pelo profeta Edin. Quando a profecia galática anuncia que o demônio Satan Goss pretende conquistar todos os planetas",
                 category: "Seriado",
-                poster: "https://picsum.photos/seed/jaspion/600/900",
-                banner: "https://picsum.photos/seed/jaspion-banner/1200/600",
+                poster: "https://static.wikia.nocookie.net/dublagem/images/9/94/Jaspion.jpg/revision/latest/scale-to-width/360?cb=20240512003355&path-prefix=pt-br",
+                banner: "https://i.pinimg.com/736x/71/90/f2/7190f211a6b7091baa310d1aec5f0d27.jpg",
                 video: "https://www.w3schools.com/html/mov_bbb.mp4", // Vídeo de teste padrão do HTML5
                 duration: "22 min",
                 year: 1986,
