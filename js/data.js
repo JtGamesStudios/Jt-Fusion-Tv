@@ -5,14 +5,14 @@ const catalogData = [
         items: [
             {
                 id: 1,
-                title: "The World Its Challengers: Origens",
-                description: "Mergulhe na criação de um universo imenso, explorando os biomas, chefes e os bastidores do desenvolvimento deste ambicioso mundo 2D.",
-                category: "Documentários",
-                poster: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600&auto=format&fit=crop", 
-                banner: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop", 
+                title: "Jaspion",
+                description: "Jaspion é um órfão criado no universo pelo profeta Edin. Quando a profecia galática anuncia que o demônio Satan Goss pretende conquistar todos os planetas",
+                category: "Seriado",
+                poster: "https://images.justwatch.com/poster/258000453/s718/o-fantastico-jaspion.jpg", 
+                banner: "https://http2.mlstatic.com/D_NQ_NP_855481-MLB111455345187_052026-O.webp", 
                 video: "https://www.w3schools.com/html/mov_bbb.mp4", // Vídeo de teste padrão do HTML5
-                duration: "1h 45min",
-                year: 2026,
+                duration: "22 min",
+                year: 1986,
                 rating: "12",
                 genre: "Making Of"
             },
