@@ -1,68 +1,128 @@
 // js/data.js
+
 const catalogData = [
     {
-        title: "Adicionados Recentemente",
+        title: "Em Destaque",
         items: [
             {
                 id: 1,
-                title: "Jaspion",
-                description: "Jaspion é um órfão criado no universo pelo profeta Edin. Quando a profecia galática anuncia que o demônio Satan Goss pretende conquistar todos os planetas",
-                category: "Seriado",
-                poster: "https://images.justwatch.com/poster/258000453/s718/o-fantastico-jaspion.jpg", 
-                banner: "https://http2.mlstatic.com/D_NQ_NP_855481-MLB111455345187_052026-O.webp", 
-                video: "https://www.w3schools.com/html/mov_bbb.mp4", // Vídeo de teste padrão do HTML5
+                title: "O Fantástico Jaspion",
+                description: "O herói espacial Jaspion enfrenta Satan Goss para impedir que o universo seja dominado pelas forças do mal.",
+                category: "Série",
+                poster: "assets/posters/jaspion.jpg",
+                banner: "assets/banners/jaspion.jpg",
+                video: "assets/videos/jaspion.mp4",
                 duration: "22 min",
-                year: 1986,
+                year: 1985,
                 rating: "12",
-                genre: "Making Of"
+                genre: "Ação"
             },
             {
                 id: 2,
-                title: "Cyberpunk: A Queda",
-                description: "Em um futuro distópico, uma corporação domina a última metrópole do planeta.",
-                category: "Filmes",
-                poster: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=600&auto=format&fit=crop",
-                banner: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1200&auto=format&fit=crop",
-                video: "https://www.w3schools.com/html/mov_bbb.mp4",
-                duration: "2h 10min",
-                year: 2025,
-                rating: "16",
-                genre: "Ficção Científica"
+                title: "Jiraiya: O Incrível Ninja",
+                description: "Jiraiya protege o lendário Pako e enfrenta diversos ninjas em batalhas cheias de ação.",
+                category: "Série",
+                poster: "assets/posters/jiraiya.jpg",
+                banner: "assets/banners/jiraiya.jpg",
+                video: "assets/videos/jiraiya.mp4",
+                duration: "22 min",
+                year: 1988,
+                rating: "10",
+                genre: "Aventura"
             }
         ]
     },
+
     {
-        title: "Ação e Aventura",
+        title: "Animes",
         items: [
             {
                 id: 3,
-                title: "O Resgate do Oeste",
-                description: "Acompanhe um fora-da-lei em busca de redenção nas terras selvagens.",
-                category: "Filmes",
-                poster: "https://images.unsplash.com/photo-1443884590026-2e4d21aee71c?q=80&w=600&auto=format&fit=crop",
-                banner: "https://images.unsplash.com/photo-1443884590026-2e4d21aee71c?q=80&w=1200&auto=format&fit=crop",
-                video: "https://www.w3schools.com/html/mov_bbb.mp4",
-                duration: "2h 30min",
-                year: 2024,
-                rating: "18",
+                title: "Naruto",
+                description: "Naruto Uzumaki sonha em se tornar Hokage enquanto supera desafios e faz grandes amizades.",
+                category: "Anime",
+                poster: "assets/posters/naruto.jpg",
+                banner: "assets/banners/naruto.jpg",
+                video: "assets/videos/naruto.mp4",
+                duration: "23 min",
+                year: 2002,
+                rating: "12",
                 genre: "Ação"
             },
             {
                 id: 4,
-                title: "Velocidade Máxima",
-                description: "Pilotos clandestinos se enfrentam na corrida mais perigosa do mundo.",
-                category: "Filmes",
-                poster: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=600&auto=format&fit=crop",
-                banner: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
-                video: "https://www.w3schools.com/html/mov_bbb.mp4",
-                duration: "1h 55min",
-                year: 2026,
-                rating: "14",
-                genre: "Corrida"
+                title: "One Piece",
+                description: "Monkey D. Luffy parte em busca do lendário tesouro One Piece para se tornar o Rei dos Piratas.",
+                category: "Anime",
+                poster: "assets/posters/onepiece.jpg",
+                banner: "assets/banners/onepiece.jpg",
+                video: "assets/videos/onepiece.mp4",
+                duration: "24 min",
+                year: 1999,
+                rating: "12",
+                genre: "Aventura"
+            },
+            {
+                id: 5,
+                title: "Beyblade",
+                description: "Jovens Bladers disputam torneios utilizando piões personalizados em batalhas emocionantes.",
+                category: "Anime",
+                poster: "assets/posters/beyblade.jpg",
+                banner: "assets/banners/beyblade.jpg",
+                video: "assets/videos/beyblade.mp4",
+                duration: "22 min",
+                year: 2001,
+                rating: "Livre",
+                genre: "Esporte"
+            },
+            {
+                id: 6,
+                title: "Inazuma Eleven",
+                description: "Mark Evans lidera o time Raimon em partidas eletrizantes para salvar o clube de futebol.",
+                category: "Anime",
+                poster: "assets/posters/inazuma.jpg",
+                banner: "assets/banners/inazuma.jpg",
+                video: "assets/videos/inazuma.mp4",
+                duration: "24 min",
+                year: 2008,
+                rating: "Livre",
+                genre: "Esporte"
+            }
+        ]
+    },
+
+    {
+        title: "Clássicos Japoneses",
+        items: [
+            {
+                id: 7,
+                title: "O Fantástico Jaspion",
+                description: "Um dos maiores clássicos do tokusatsu japonês.",
+                category: "Tokusatsu",
+                poster: "assets/posters/jaspion.jpg",
+                banner: "assets/banners/jaspion.jpg",
+                video: "assets/videos/jaspion.mp4",
+                duration: "22 min",
+                year: 1985,
+                rating: "12",
+                genre: "Ação"
+            },
+            {
+                id: 8,
+                title: "Jiraiya: O Incrível Ninja",
+                description: "Aventura, ação e ninjas em uma das séries mais famosas da TV.",
+                category: "Tokusatsu",
+                poster: "assets/posters/jiraiya.jpg",
+                banner: "assets/banners/jiraiya.jpg",
+                video: "assets/videos/jiraiya.mp4",
+                duration: "22 min",
+                year: 1988,
+                rating: "10",
+                genre: "Aventura"
             }
         ]
     }
 ];
 
-// O primeiro item do primeiro array é usado como destaque inicial
+// Conteúdos do banner principal
 const highlightItems = catalogData[0].items;
